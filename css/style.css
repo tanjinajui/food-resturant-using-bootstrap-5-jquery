@@ -54,7 +54,6 @@ button::before{
     z-index: -1;
 }
 .content button:hover, button::before{
-    /* width: 100%; */
     background: var(--yellow);
 
 }
@@ -101,8 +100,6 @@ nav ul li a:hover{
 #home {
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    /* background: #000; */
-    /* min-height: 100vh; */
     position: relative;
   }
   .content h1{
@@ -123,7 +120,6 @@ nav ul li a:hover{
       color: var(--Chinese-silver);
   }
   .content button{
-      /* @include button(); */
       height: 4rem;
       width: 14rem;
   }
@@ -179,24 +175,9 @@ nav ul li a:hover{
     min-height: 100vh;
 }
 .heading h1{
-    /* font-size: 4rem; */
     color: var(--white);
 }
-.heading span{
-    /* color: var(--yellow) */
-}
-.card-container{
-    /* margin: 7rem auto; */
-    /* justify-content: space-around; */
-}
-.card{
-    /* height: 35rem; */
-    /* width: 30rem; */
-    /* padding: 1rem; */
-    
-}
 .card img{
-    /* object-fit: cover; */
     height: 250px;
 }
 .card p {
@@ -210,7 +191,6 @@ nav ul li a:hover{
     width: 14rem;
 }
 .card button:hover, button::before{
-    /* width: 100%; */
     background: var(--yellow);
     color: var(--black2);
 }
@@ -223,14 +203,10 @@ nav ul li a:hover{
     -webkit-box-shadow: .2rem 0 .5rem #000;
             box-shadow: .2rem 0 .5rem #000;
   }
-  
   .header-active nav ul {
     margin: 0;
   }
 /* about  */
-#about .content{
-    /* margin: 5rem auto; */
-}
 #about .content p{
     font-size: 2rem;
     text-align: justify;
@@ -244,25 +220,19 @@ nav ul li a:hover{
     width: 14rem;
 }
 #about .content button:hover, button::before{
-    /* width: 100%; */
     background: var(--yellow);
     color: var(--black2);
 }
 .image img{
-    /* width: 30vw; */
-    padding: 0 25px 76px 25px;
+    padding: 0 25px 22px 25px;
 }
 /* dish  */
 #dish{
     min-height: 100vh;
     width: 100vw;
 }
-/* .box-container{
-    margin: 1rem auto;
-} */
 .box{
     height: 92%;
-    /* width: 25rem; */
     border-radius: .5rem;
     margin: 2rem;
     cursor: pointer;
@@ -301,7 +271,6 @@ nav ul li a:hover{
     width: 14rem;
 }
 #dish .info button:hover, button::before{
-    /* width: 100%; */
     background: var(--yellow);
     color: var(--black2);
 }
@@ -368,14 +337,10 @@ textarea{
     margin-left: 4%;
 }
 #contact .contact-form button:hover, button::before{
-    /* width: 100%; */
     background: var(--yellow);
     color: var(--black2);
 }
 /* footer  */
-.brand a img{
-    /* height: 4rem; */
-}
 .icons a{
     font-size: 2rem;
     margin: 2rem 1rem;
@@ -421,13 +386,10 @@ textarea{
     margin-left: 4%;
 }
 #footer .letter button:hover, button::before{
-    /* width: 100%; */
     background: var(--yellow);
     color: var(--black2);
 }
-#footer{
-    /* margin-bottom: 2rem; */
-}
+
 /* media queries  */
 @media(max-width:768px){
     html{
@@ -475,6 +437,9 @@ nav ul li a:hover{
     text-align: center;
 }
 #about .content button{
+    margin-bottom: 2rem;
+}
+#special .card{
     margin-bottom: 2rem;
 }
 }
