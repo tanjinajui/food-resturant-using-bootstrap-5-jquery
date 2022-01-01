@@ -186,16 +186,18 @@ nav ul li a:hover{
     /* color: var(--yellow) */
 }
 .card-container{
-    margin: 7rem auto;
+    /* margin: 7rem auto; */
     /* justify-content: space-around; */
 }
 .card{
-    height: 35rem;
-    width: 30rem;
+    /* height: 35rem; */
+    /* width: 30rem; */
     /* padding: 1rem; */
+    
 }
 .card img{
-    object-fit: cover;
+    /* object-fit: cover; */
+    height: 250px;
 }
 .card p {
     font-size: 1.4rem;
@@ -227,11 +229,13 @@ nav ul li a:hover{
   }
 /* about  */
 #about .content{
-    margin: 5rem auto;
+    /* margin: 5rem auto; */
 }
 #about .content p{
     font-size: 2rem;
-    /* text-align: center; */
+    text-align: justify;
+    color: var(--black2);
+    line-height: 4rem;
 }
 #about .content button{
     background: var(--black2);
@@ -245,19 +249,20 @@ nav ul li a:hover{
     color: var(--black2);
 }
 .image img{
-    width: 30vw;
+    /* width: 30vw; */
+    padding: 0 25px 76px 25px;
 }
 /* dish  */
 #dish{
     min-height: 100vh;
     width: 100vw;
 }
-.box-container{
+/* .box-container{
     margin: 1rem auto;
-}
+} */
 .box{
-    height: 20rem;
-    width: 25rem;
+    height: 92%;
+    /* width: 25rem; */
     border-radius: .5rem;
     margin: 2rem;
     cursor: pointer;
@@ -468,5 +473,8 @@ nav ul li a:hover{
 }
 #about .content {
     text-align: center;
+}
+#about .content button{
+    margin-bottom: 2rem;
 }
 }
